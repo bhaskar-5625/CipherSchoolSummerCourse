@@ -1,0 +1,14 @@
+1. simple selector
+2. combinator selector
+3. pseduo-class selector
+4. pseduo-element selector
+5. attribute selector
+
+use '#' for id selector
+use '.' for class selector
+
+for combinator selector
+1. descendant selector
+2. child selector
+3. adjacent selector
+4. general sibling selector

@@ -1,0 +1,43 @@
+#zun{
+    text-align: center;
+}
+*{
+    font-size: 100px;
+}
+
+h1, .zun, p{
+    text-align: center;
+    color: brown;
+}
+
+div p {
+    background: green;
+}
+
+div p{
+    background: brown;
+}
+
+div > p{
+    background: cyan;
+}
+
+/* adjacent selector */
+div + p{
+    background: brown;
+}
+
+/* sibling selector */
+div ~ p{
+    background: cyan;
+}
+
+/* pseduo-class selector */
+
+div ~ p:hover{
+    background-color: brown;
+}
+
+a[target] {
+    background-color: brown;
+}
